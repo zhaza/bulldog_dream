@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    background: #fff;
+    padding: 2em;
+    border: #fff;
+    border-radius: 75px;
+
+    button {
+        border: purple;
+        justify-content: space-evenly;
+        padding: 2em;
+        border-radius: 50%;
+    }
+}

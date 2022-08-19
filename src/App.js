@@ -3,26 +3,21 @@ import './App.scss';
 import Home from './components/Home/Home'
 import Nav from './components/Mentee/Nav/Nav'
 import Login from './components/Mentee/Login/Login'
-import React, { useState } from 'react'
-import { WindowScroll, PageSnap } from 'react-easy-snap'
+import React, { useRef } from 'react'
+import useScrollSnap from 'react-use-scroll-snap';
 
 function App() {
 
-  const [currentPageState, setCurrentPageState] = useState();
+  const scrollRef = useRef(null);
+  useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
 
   return (
     <div className="App">
-      <WindowScroll height='100vh' width='100vw' scrollDirection='y' timeScrollDisabled='200' mainPage='0'
-                  currentPageState={currentPageState} setCurrentPageState={setCurrentPageState}
-                  minWidth='960'>
-        <PageSnap>
+        <section ref={scrollRef}>
           <Home />
-        </PageSnap>
-        <Nav />
-        <PageSnap>
+          <Nav />
           <Login />
-        </PageSnap>
-      </WindowScroll>
+        </section>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Essay3() {
         <h1>Essay 3</h1>
         <form>
           <label>
-          What are your dreams of the future? When you look back on your life in thirty years, what would it take for you to consider your life successful?
+          What are your dreams of the future? When you look back on your life in thirty years, what would it take for you to consider your life successful? *3000 character limit
           <br />
           <textarea
           rows={25}

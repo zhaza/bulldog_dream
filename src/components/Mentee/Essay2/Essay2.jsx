@@ -6,7 +6,7 @@ function Essay2() {
         <h1>Essay 2</h1>
         <form>
           <label>
-          Describe any personal or economic hardships/barriers you have had to overcome and explain how they affected your life.
+          Describe any personal or economic hardships/barriers you have had to overcome and explain how they affected your life. *3000 character limit
           <br />
           <textarea
           rows={25}

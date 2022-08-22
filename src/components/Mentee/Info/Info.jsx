@@ -11,7 +11,11 @@ function Info() {
             </label>
             <label>
               GPA:
-            <input type="text" name="lastName" required/>
+            <input type="number" name="gpa"
+            min="0.00"
+            step="0.01"
+            max="4.00"
+            required/>
             </label>
             <br />
             <label>
@@ -29,11 +33,11 @@ function Info() {
             <h3>*Optional*</h3>
             <label>
               ACT scores:
-            <input type="text" name="lastName" />
+            <input type="number" name="act" />
             </label>
             <label>
               SAT scores:
-            <input type="text" name="lastName" />
+            <input type="number" name="sat" />
             </label>
           </section>
           <input type="submit" value="Submit" />

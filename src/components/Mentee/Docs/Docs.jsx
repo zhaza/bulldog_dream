@@ -6,8 +6,9 @@ function Docs() {
 
           <label>
             Upload:
-          <input type="text" name="firstName" required/>
+          <input type="file" name="transcript" required/>
           </label>
+          <br />
           <input type="submit" value="Submit" />
         </form>
     </div>

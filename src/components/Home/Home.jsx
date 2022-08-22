@@ -6,7 +6,7 @@ const Home = () => {
       <h1>Bulldog Dream Scholarship</h1>
       { /* onClick go to next Sign-in section */ }
       <button className='startBtn'>
-        START
+        Scroll
         <br/>
         v
       </button>

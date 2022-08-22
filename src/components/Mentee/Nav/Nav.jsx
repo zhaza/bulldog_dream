@@ -4,6 +4,7 @@ function Nav() {
   return (
     <nav>
         <button>Sign-In</button>
+        <button>Info</button>
         <button>Documents</button>
         <button>Community</button>
         <button>Responsibilities</button>

@@ -20,3 +20,8 @@ Upgrading making an independent site from https://www.tukwilachildrensfoundation
     * Close Scoring
         * Auto emails rejects/accepts based on score
             * Accepts include scheduling
+
+### Updates coming
+- Nav
+    - Add progress bar
+    - Resize nav-item borders to have uniform circle sizes

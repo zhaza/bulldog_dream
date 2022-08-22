@@ -3,13 +3,14 @@ import './Login.scss'
 function Login() {
   return (
     <div className='container login'>
-        <div className="left">
+        <section className="left">
           <h1>Sign-up/Login with Gmail</h1>
           <button>Gmail</button>
           <h3>OR</h3>
           <button>Returning Applicant Login</button>
-        </div>
-        <div className="right">
+        </section>
+        
+        <section className="right">
           <h1>Sign-up manually</h1>
           <form>
             <div>
@@ -36,7 +37,7 @@ function Login() {
             <br />
             <input type="submit" value="Submit" />
           </form>
-        </div>
+        </section>
     </div>
   )
 }

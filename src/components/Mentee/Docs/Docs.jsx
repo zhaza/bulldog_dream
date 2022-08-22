@@ -1,0 +1,17 @@
+function Docs() {
+  return (
+    <div className='container'>
+        <form>
+          <h1>Upload School Transcript</h1>
+
+          <label>
+            Upload:
+          <input type="text" name="firstName" required/>
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
+    </div>
+  )
+}
+
+export default Docs

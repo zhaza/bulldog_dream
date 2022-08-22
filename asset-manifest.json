@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bulldog_dream/static/css/main.ece93d4c.css",
+    "main.js": "/bulldog_dream/static/js/main.fd976b18.js",
+    "index.html": "/bulldog_dream/index.html",
+    "main.ece93d4c.css.map": "/bulldog_dream/static/css/main.ece93d4c.css.map",
+    "main.fd976b18.js.map": "/bulldog_dream/static/js/main.fd976b18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ece93d4c.css",
+    "static/js/main.fd976b18.js"
+  ]
+}

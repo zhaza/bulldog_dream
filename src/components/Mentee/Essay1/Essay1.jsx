@@ -1,16 +1,17 @@
-import './Community.scss'
+import './Essay1.scss'
 
-function Community() {
+function Essay1() {
   return (
     <div className='container'>
-        <h1>Community Involvement/Extracurricular Activities</h1>
+        <h1>Essay 1</h1>
         <form>
           <label>
-              Please list your activities with a brief description and number of years involved.
+          What does being a “Bulldog” mean to you? What have you learned from attending Foster that you can take with you going forward? *3000 character limit
           <br />
           <textarea
           rows={25}
           cols={150}
+          maxLength={3000}
           required
           >
           </textarea>
@@ -22,4 +23,4 @@ function Community() {
   )
 }
 
-export default Community
+export default Essay1

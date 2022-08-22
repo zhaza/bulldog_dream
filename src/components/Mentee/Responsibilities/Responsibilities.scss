@@ -1,0 +1,11 @@
+.responsibilities {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+
+    .NA {
+        grid-template-rows: 1fr 1fr;
+    }
+}

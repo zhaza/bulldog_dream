@@ -9,7 +9,7 @@ function Login() {
           <h3>OR</h3>
           <button>Returning Applicant Login</button>
         </section>
-        
+
         <section className="right">
           <h1>Sign-up manually</h1>
           <form>

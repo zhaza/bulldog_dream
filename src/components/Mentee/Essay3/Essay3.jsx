@@ -1,16 +1,17 @@
-import './Community.scss'
+import './Essay3.scss'
 
-function Community() {
+function Essay3() {
   return (
     <div className='container'>
-        <h1>Community Involvement/Extracurricular Activities</h1>
+        <h1>Essay 3</h1>
         <form>
           <label>
-              Please list your activities with a brief description and number of years involved.
+          What are your dreams of the future? When you look back on your life in thirty years, what would it take for you to consider your life successful?
           <br />
           <textarea
           rows={25}
           cols={150}
+          maxLength={3000}
           required
           >
           </textarea>
@@ -22,4 +23,4 @@ function Community() {
   )
 }
 
-export default Community
+export default Essay3

@@ -6,6 +6,9 @@ import Info from './components/Mentee/Info/Info';
 import Docs from './components/Mentee/Docs/Docs';
 import Community from './components/Mentee/Community/Community';
 import Responsibilities from './components/Mentee/Responsibilities/Responsibilities';
+import Essay1 from './components/Mentee/Essay1/Essay1';
+import Essay2 from './components/Mentee/Essay2/Essay2';
+import Essay3 from './components/Mentee/Essay3/Essay3';
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
         <Docs />
         <Community />
         <Responsibilities />
+        <Essay1 />
+        <Essay2 />
+        <Essay3 />
     </div>
   );
 }

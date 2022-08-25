@@ -1,11 +1,20 @@
+import { GoogleLogin } from '@moeindana/google-oauth';
 import './Login.scss'
 
 function Login() {
+
   return (
     <div className='container login'>
         <section className="left">
           <h1>Sign-up/Login with Gmail</h1>
-          <button>Gmail</button>
+          <GoogleLogin
+            onSuccess={response => {
+              console.log(response);
+            }}
+            onError={() => {
+              console.log('Login Failed');
+            }}
+          />;
           <h3>OR</h3>
           <button>Returning Applicant Login</button>
         </section>
